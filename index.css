@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.padd {
+  padding: 20px;
+}
+
+.section_title {
+  font-family: Segoe UI;
+  font-weight: normal;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.header {
+  width: 100%;
+  background-color: #171616;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+
+.logo {
+  width: 15%;
+  height: 70px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  font-family: Segoe UI;
+  line-height: 70px;
+}
+
+.logo > p {
+  cursor: pointer;
+}
+
+.ham {
+  display: none;
+}
+
+.nav {
+  width: 40%;
+}
+
+.nav-parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  list-style-type: none;
+  width: 25%;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  font-family: Segoe UI;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  background-color: #fff;
+  color: #171616;
+}
+
+.banner {
+  width: 100%;
+  height: 75vh;
+  background-image: url("https://images.pexels.com/photos/3765035/pexels-photo-3765035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  background-position: center;
+  margin-top: 70px;
+}
+
+.banner_details {
+  width: 30%;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-left: 10%;
+  color: white;
+  font-family: Segoe UI;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.banner_title {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.banner_desc {
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  padding: 10px 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: Segoe UI;
+  border: none;
+}
+
+.banner_btn {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  transition: 0.4s;
+}
+
+.banner_btn:hover {
+  background-color: #fff;
+  color: #171616;
+}
+
+.products {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #ececec;
+  display: flex;
+  justify-content: center;
+}
+
+.products_container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.product_parent {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  width: 22%;
+  margin-top: 20px;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 10px;
+  /* box-shadow: 2px 2px 10px gray; */
+  /* font-family: Segoe UI; */
+}
+
+.product_img {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.product_img > img {
+  width: 100%;
+  transition: 0.4s;
+}
+
+.product_img > img:hover {
+  transform: scale(1.1);
+}
+
+.product_detail {
+  width: 100%;
+  height: 210px;
+}
+
+.product_detail h2,
+.product_detail p {
+  margin-bottom: 10px;
+}
+
+.product_btn {
+  transition: 0.4s;
+}
+
+.product_btn:hover {
+  background-color: #171616;
+  color: #fff;
+}
+
+.about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: #171616;
+}
+
+.about_container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.about_parent {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about_image {
+  width: 50%;
+  height: 380px;
+  overflow: hidden;
+}
+
+.about_content {
+  width: 50%;
+  height: 380px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+.about_image > img {
+  width: 100%;
+}
+
+.big {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.about_title {
+  color: #fff;
+}
