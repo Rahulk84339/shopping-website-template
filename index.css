@@ -3,6 +3,20 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  list-style-type: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:hover a {
+  color: #171616;
+}
+
 .container {
   width: 80%;
   display: flex;
@@ -19,6 +33,7 @@
   font-weight: normal;
   font-size: 30px;
   margin-bottom: 30px;
+  border-bottom: 3px solid black;
 }
 
 .header {
@@ -223,7 +238,7 @@
 .about_content {
   width: 50%;
   height: 380px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Segoe UI;
   line-height: 25px;
   display: flex;
   align-items: center;
@@ -241,4 +256,40 @@
 
 .about_title {
   color: #fff;
+  border-bottom: 3px solid #fff;
+}
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #c3c3c3;
+}
+
+.footer_logo {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.footer_links {
+  margin: 40px;
+}
+
+.footer_links > ul {
+  text-align: center;
+}
+
+.footer_links > ul > li {
+  list-style-type: none;
+  font-size: 20px;
+  font-family: Segoe UI;
+  cursor: pointer;
+}
+
+.footer_links > ul > li:hover {
+  font-weight: bold;
+}
+
+.footer_a {
+  color: black;
 }
